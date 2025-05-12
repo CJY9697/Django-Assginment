@@ -44,7 +44,9 @@ OWNER_APPS = [
     "users"
 ]
 
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+    "django_extensions"
+]
 
 INSTALLED_APPS = DJANGO_APPS + OWNER_APPS + THIRD_PARTY_APPS
 
