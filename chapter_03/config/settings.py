@@ -132,5 +132,5 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-LOGIN_REDIRECT_URL = '/todo/' # 로그인 후에 To Do List 페이지로 이동하기 위함
-LOGOUT_REDIRECT_URL = '/accounts/login/' # 로그아웃 시 로그인 페이지로 이동하기 위함
+LOGIN_REDIRECT_URL = '/cbv/todo/'
+LOGOUT_REDIRECT_URL = '/accounts/login/'
