@@ -19,7 +19,6 @@ def todo_list(request):
     context = {
         'page_obj': page_obj
     }
-    print(page_obj)
     return render(request, 'todo/todo_list.html', context)
 
 @login_required()
